@@ -3,8 +3,8 @@
 
 int main(int argc, char** argv) {
     float a[10];
-    float x = atof(argv[11]);
-    int k = atoi(argv[12]);
+    int k = atof(argv[11]);
+    float x = atoi(argv[12]);
 
     for (int i = 0; i <= 9; i++) {
 	scanf("%f", &a[i]);

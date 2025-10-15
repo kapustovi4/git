@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 int main(int argc, char** argv) {
-    float a[10];
+    double a[10];
     for (int i = 0; i <= 9; i++) {
     a[i] = atof(argv[i+1]);
     }
@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     for (int i = 0; i <= 9; i++) {
 	sum += a[i];
     }
-    printf("%.2f", sum/10);
+    printf("%.2lf", sum/10);
 
     return 0;
 }

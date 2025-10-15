@@ -7,7 +7,7 @@ int main(int argc, char** argv) {
     int k = atoi(argv[12]);
 
     for (int i = 0; i <= 9; i++) {
-	a[i] = atof(argv[i+1]);
+	scanf("%f" &a[i]);
     }
 
     for (int i = 0; i <= 9; i++) {

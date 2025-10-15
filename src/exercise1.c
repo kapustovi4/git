@@ -11,7 +11,7 @@ int main(int argc, char** argv) {
     for (int i = 0; i <= 9; i++) {
 	sum += a[i];
     }
-    printf("%.2lf", sum/10);
+    printf("%lf", sum/10);
 
     return 0;
 }

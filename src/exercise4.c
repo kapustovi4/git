@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
     }
     a[k] = x;
     for (int i = 0; i < 10; i++){
-	printf("%f", a[i]);
+	printf("%f ", a[i]);
     }
     return 0;
 }

@@ -4,7 +4,7 @@
 int main(int argc, char** argv) {
     double a[10];
     for (int i = 0; i <= 9; i++) {
-    a[i] = atof(argv[i+1]);
+        scanf("%lf",&a[i]);
     }
 
     float sum = 0;

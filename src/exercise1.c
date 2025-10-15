@@ -12,4 +12,6 @@ int main(int argc, char** argv) {
 	sum += a[i];
     }
     printf("%.2f", sum/10);
+
+    return 0;
 }
